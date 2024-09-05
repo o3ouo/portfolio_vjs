@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://www.gstatic.com; connect-src 'self' https://api.emailjs.com;">
+    <link rel="stylesheet" href="css/base-style.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript" src="js/mail.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>유아정 | 웹 포트폴리오</title>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <!-- 768px에서 보이는 메뉴 -->
+        <header class="flex header header-show">
+            <p class="name-intro">Portfolio</p>
+            <div class="header-right flex">
+                <button class="menu-click btn">Menu</button>
+                <button type="button" class="mode-btn round-btn">Dark Mode</button>
+            </div>
+        </header>
+        <!-- /768px에서 보이는 메뉴 -->
+
+        <!-- menu box -->
+        <div class="menu">
+
+            <div class="menu-top">
+                <div class="close-wrap">
+                    <button type="button" class="close-btn btn">Close</button>
+                </div>
+                <nav class="menu-list-box">
+                    <ul class="menu-list">
+                        <li class="menu-txt">
+                            <a href="#intro">SAY HI</a>
+                        </li>
+                        <li class="menu-txt">
+                            <a href="#about">ABOUT ME</a>
+                        </li>
+                        <li class="menu-txt">
+                            <a href="#work">PORTFOLIO</a>
+                        </li>
+                        <li class="menu-txt">
+                            <a href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="menu-bottom">
+                <div class="menu-bottom-title flex">
+                    <div class="bottom-title round-btn">Work Preview</div>
+                    <div class="bottom-arrow flex">
+                        <button type="button" class="arrow">
+                            <img src="img/arrow_white_left.png" alt="arrow_white_left">
+                        </button>
+                        <button type="button" class="arrow">
+                            <img src="img/arrow_white_right.png" alt="arrow_white_right">
+                        </button>
+                    </div>
+                </div>
+                <div class="menu-bottom-img">
+                    <div class="img-wrap flex">
+                        <a href="#" class="work-img">
+                            <img src="img/pree_gyojibhab.png" alt="preview_Gyojibhab">
+                        </a>
+                        <a href="#" class="work-img">
+                            <img src="img/pree_ihm.png" alt="preview_I_Hate_Monday">
+                        </a>
+                        <a href="#" class="work-img">
+                            <img src="img/pree_bmw.png" alt="preview_BMW">
+                        </a>
+                        <a href="#" class="work-img">
+                            <img src="img/pree_ten.png" alt="preview_10x10">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /menu box -->
+
+        <!-- intro -->
+        <section id="intro" class="container intro">
+
+            <div class="inner mx-auto">
+
+                <header class="header flex none">
+                    <p class="name-intro">Say Hi</p>
+                    <div class="header-right flex">
+                        <button class="menu-click btn">Menu</button>
+                        <button type="button" class="mode-btn round-btn">Dark Mode</button>
+                    </div>
+                </header>
+
+                <div class="title-intro">
+                    <div class="title-wrap">
+                        <div class="title-txt">
+                            <div class="title-txt-top flex">
+                                <p class="left">Yoo A</p>
+                                <div class="slide-txt">
+                                    <p class="slide-txt-item">READY</p>
+                                    <p class="slide-txt-item">JEONG?</p>
+                                </div>
+                            </div>
+                            <p class="title-txt-bottom">Yes, I'm Ready</p>
+                        </div>
+                        <p class="txt">
+                            안녕하세요, 나아가는 웹 퍼블리셔 유아정입니다. <br>
+                            <br>
+                            단순한 흑백을 넘어, 끊임없는 열정과 도전으로 점점 더 다채로운 색을 더해가고 있습니다. <br>
+                            디자인과 코딩, 그리고 사용자 경험을 조화롭게 엮어내는 일은 저에게 큰 기쁨과 보람을 줍니다. <br>
+                            언제나 새로운 기술과 트렌드를 탐구하며, 웹의 무한한 가능성을 추구하는 것이 저의 목표입니다.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /intro -->
+
+
+        <!-- about -->
+        <section id="about" class="container about">
+
+            <div class="inner mx-auto">
+
+                <header class="header flex none">
+                    <p class="name-about">Profile</p>
+                    <nav class="nav flex">
+                        <a href="#intro" class="nav-list">SAY HI</a>
+                        <a href="#about" class="nav-list pick">ABOUT ME</a>
+                        <a href="#work" class="nav-list">PORTFOLIO</a>
+                        <a href="#contact" class="nav-list">CONTACT</a>
+                        <button class="menu-click btn">Menu</button>
+                        <button type="button" class="mode-btn round-btn">Dark Mode</button>
+                    </nav>
+                </header>
+
+                <div class="profile-box flex">
+                    <figure class="profile-img">
+                        <img src="img/me.jpg" alt="profile-img">
+                    </figure>
+                    <div class="profile-txt">
+                        <div class="profile-name">
+                            <p class="name">유아정</p>
+                            <p class="name">1997. 11. 10</p>
+                        </div>
+                        <div class="profile-02">
+                            <ul class="profile-certificate">
+                                <li class="title">CERTIFICATE</li>
+                                <li class="certificate">웹디자인기능사</li>
+                                <li class="certificate">컴퓨터그래픽스기능사</li>
+                                <li class="certificate">아래한글 A</li>
+                                <li class="certificate">파워포인트 A</li>
+                                <li class="certificate">운전면허 2종 보통</li>
+                            </ul>
+                            <ul class="profile-education">
+                                <li class="title">EDUCATION</li>
+                                <li class="education">
+                                    <p class="sm">2024. 01 ~ 2024. 08</p>
+                                    웹퍼블리셔 양성 과정
+                                </li>
+                                <li class="education">
+                                    <p class="sm">2023. 07 ~ 2023. 10</p>
+                                    블렌더 활용 3D 영상 모션그래픽 전문가 과정
+                                </li>
+                                <li class="education">
+                                    <p class="sm">2023. 05 ~ 2023. 07</p>
+                                    웹디자인&그래픽운용기능사 자격증 과정
+                                </li>
+                                <li class="education">
+                                    <p class="sm">2013. 03 ~ 2016. 02</p>
+                                    경북여자상업고등학교 (e-비즈니스과) 졸업
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="skills flex">
+                <div class="skills-bar">
+                    <div class="skills-list flex">
+                        <figure class="skill-img">
+                            <img src="img/html_icon.png" alt="html_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/css_icon.png" alt="css_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/js_icon.png" alt="js_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/jquery_icon.png" alt="jquery_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/vs_icon.png" alt="vs_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/figma_icon.png" alt="figma_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/ps_icon.png" alt="ps_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/ai_icon.png" alt="ai_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/ae_icon.png" alt="ae_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/pr_icon.png" alt="pr_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/blander_icon.png" alt="blander_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/han_icon.png" alt="hangle_icon">
+                        </figure>
+                        <figure class="skill-img">
+                            <img src="img/power_icon.png" alt="powerpoint_icon">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /about -->
+
+
+        <!-- work -->
+        <section id="work" class="container work">
+
+            <header class="header flex mx-auto none">
+                <p class="name-about">Web Redesign</p>
+                <nav class="nav flex">
+                    <a href="#intro" class="nav-list">SAY HI</a>
+                    <a href="#about" class="nav-list">ABOUT ME</a>
+                    <a href="#work" class="nav-list pick">PORTFOLIO</a>
+                    <a href="#contact" class="nav-list">CONTACT</a>
+                    <button class="menu-click btn">Menu</button>
+                    <button type="button" class="mode-btn round-btn">Dark Mode</button>
+                </nav>
+            </header>
+
+            <div class="contents-wrap">
+                <div class="inner-wrap flex">
+                    <a href="#" class="l-arrow">
+                        <img src="img/arrow_black_left.png" alt="arrow_black_left">
+                    </a>
+
+                    <div class="contents-show">
+                        <div class="contents-slider flex">
+                            <!-- gyojibhab -->
+                            <div class="contents gyojibhab flex">
+                                <div class="left">
+                                    <div class="left-inner">
+                                        <p class="title tt">Gyojibhab</p>
+                                        <p class="sub-txt st">
+                                            한복 디자인을 비롯해 다양한 시각에서 새롭게 접근한 디자인을 선보이는 브랜드입니다. 
+                                            전통적인 한복의 아름다움을 현대적인 감각으로 재해석하여,
+                                            사용자들에게 친근하고 세련된 이미지를 전달하는 것을 목표로 했습니다.
+                                        </p>
+                                        <p class="info-txt it">
+                                            Device Width : 1920px <br>
+                                            Container : 1780px <br>
+                                            Viewport : 반응형 <br>
+                                            Page : Main / About / Season / Work <br>
+                                            Tool : HTML5 / CSS3 / JS / Figma / Photoshop <br>
+                                            Participation : 개인 작업 100%
+                                        </p>
+                                        <div class="btn flex bt">
+                                            <button type="button" class="round-btn">WEB</button>
+                                            <button type="button" class="round-btn">FIGMA</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <figure>
+                                        <img src="img/work_gyojibhab.png" alt="Gyojibhab 웹사이트 리디자인">
+                                    </figure>
+                                </div>
+                            </div>
+                            <!-- ihm -->
+                            <div class="contents ihm flex">
+                                <div class="left">
+                                    <div class="left-inner">
+                                        <p class="title tt">I Hate Monday</p>
+                                        <p class="sub-txt st">
+                                            라이프스타일의 다양한 양말과 제품을 만드는 브랜드입니다. 
+                                            현대적인 웹 디자인 트렌드를 반영해 큰 이미지와 타이포그래피로 시각적 임팩트를 주고,
+                                            브랜드 모토를 기반으로하여 사용자에게 밝은 에너지를 전달하는 것을 목표로 했습니다.
+                                        </p>
+                                        <p class="info-txt it">
+                                            Device Width : 1920px <br>
+                                            Container : 1140px <br>
+                                            Viewport : 적응형 <br>
+                                            Page : Main / Collaboration / Look Book <br>
+                                            Tool : HTML5 / CSS3 / JS / Figma / Photoshop <br>
+                                            Participation : 개인 작업 100%
+                                        </p>
+                                        <div class="btn flex bt">
+                                            <button type="button" class="round-btn">WEB</button>
+                                            <button type="button" class="round-btn">FIGMA</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <figure>
+                                        <img class="ihm-img" src="img/work_ihm.png" alt="I_Hate_Monday 웹사이트 리디자인">
+                                    </figure>
+                                </div>
+                            </div>
+                            <!-- bmw -->
+                            <div class="contents bmw flex">
+                                <div class="left">
+                                    <div class="left-inner">
+                                        <p class="title tt">BMW</p>
+                                        <p class="sub-txt st">
+                                            프리미엄 자동차 브랜드입니다.
+                                            블랙, 화이트, 메탈릭 실버와 BMW의 시그니처 블루를 사용한 럭셔리 모던 컨셉으로
+                                            온라인에서의 브랜드 경험을 강화하고 고객에게 혁신적이고 고급스러운 이미지를 전달하는 것을 목표로 하였습니다.
+                                        </p>
+                                        <p class="info-txt it">
+                                            Device Width : 1920px <br>
+                                            Container : 1140px <br>
+                                            Viewport : 반응형 <br>
+                                            Page : Main <br>
+                                            Tool : HTML5 / CSS3 / JS / Figma / Photoshop <br>
+                                            Participation : 개인 작업 100%
+                                        </p>
+                                        <div class="btn flex bt">
+                                            <button type="button" class="round-btn">WEB</button>
+                                            <button type="button" class="round-btn">FIGMA</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <figure>
+                                        <img src="img/work_bmw.png" alt="BMW 웹사이트 리디자인">
+                                    </figure>
+                                </div>
+                            </div>
+                            <!-- 10x10 -->
+                            <div class="contents ten flex">
+                                <div class="left">
+                                    <div class="left-inner">
+                                        <p class="title tt">10X10</p>
+                                        <p class="sub-txt st">
+                                            텐바이텐은 다양한 라이프스타일 제품을 디자인하고 제작 판매하는 쇼핑몰입니다.
+                                            고객의 취향과 관심사를 반영하여 더 나은 쇼핑 경험을 제공하기 위해 앱의 UI/UX를 리디자인하게 되었습니다.
+                                            이번 프로젝트의 목표는 사용자 경험을 최적화하고, 브랜드 아이덴티티를 강화하며, 
+                                            직관적이고 귀여운 디자인과 상품 배치를 통해 사용자의 참여를 높이는 것입니다.
+                                        </p>
+                                        <p class="info-txt it">
+                                            Page : 홈 (오늘의추천 / 베스트 / 트렌드 / 선물샵) / 카테고리 / 위시리스트 / 취향체크
+                                            Tool : Figma / Photoshop / Illurstrator <br>
+                                            Participation : 개인 작업 100%
+                                        </p>
+                                        <div class="btn flex bt">
+                                            <button type="button" class="round-btn">WEB</button>
+                                            <button type="button" class="round-btn">FIGMA</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <figure>
+                                        <img class="ten-img" src="img/work_ten.png" alt="10X10 UI/UX 리디자인">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="r-arrow">
+                        <img src="img/arrow_black_right.png" alt="arrow_black_right">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <!-- /work -->
+
+
+        <!-- contact -->
+        <section id="contact" class="container contact">
+
+            <div class="inner mx-auto">
+
+                <header class="header flex none">
+                    <p class="name-intro">Contact</p>
+                    <div class="header-right flex">
+                        <button class="menu-click btn">Menu</button>
+                        <button type="button" class="mode-btn round-btn">Dark Mode</button>
+                    </div>
+                </header>
+
+                <div class="contact-contents flex">
+                    <div class="left">
+                        <div class="number flex">
+                            <div class="e-box">
+                                <p class="e-title">E.</p>
+                                <p class="e-number">o3ouo@daum.net</p>
+                            </div>
+                            <div class="m-box">
+                                <p class="m-title">M.</p>
+                                <p class="m-number">
+                                    +82 10 <br>
+                                    9643 0221
+                                </p>
+                            </div>
+                        </div>
+                        <p class="top-txt">
+                            앞으로도 끊임없이 도전하고 성장하며,
+                            흑백의 화면을 더 풍성한 색으로 채워나가겠습니다. <br>
+                            저의 도전과 변화를 기대해 주세요,
+                            멋진 결과로 보답하겠습니다.
+                        </p>
+                        <div class="footer">
+                            <p class="copy">
+                                ⓒ2024 YooAJeong All Rights Reserved.
+                            </p>
+                            <p class="sub">
+                                본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+
+                        <div class="mail">
+                            <form id="contact-form">
+                                <label for="to_name" class="b-18">Name</label>
+                                <input id="to_name" type="text" name="to_name" class="i-box">
+
+                                <label for="from_name" class="b-18">Email</label>
+                                <input id="from_name" type="email" name="from_name" class="i-box">
+
+                                <label for="button" class="b-18">Message</label>
+                                <textarea name="message" class="i-box ms-box"></textarea>
+                                <input id="button" type="submit" value="Send" class="round-btn">
+                            </form>
+                        </div>
+                        <div class="by">Thank you</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /contact -->
+
+    </div>
+</body>
+
+</html>
