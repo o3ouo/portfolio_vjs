@@ -260,6 +260,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setInitialBackground();
 
-
     //////////////////////////////////////
 });
