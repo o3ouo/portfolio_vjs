@@ -2,7 +2,7 @@ $(function () {
     
 window.onload = function() {
     // EmailJS 초기화 - PublicKey 대신 user_id 사용
-    emailjs.init('3R_Xx0G26iGe4Nu7O'); // 'your_user_id'를 실제 사용자 ID로 교체하세요.
+    emailjs.init('ZQ95343467sXwou2y'); // 'your_user_id'를 실제 사용자 ID로 교체하세요.
 
     $('#contact-form').on('submit', function(event) {
         event.preventDefault();
